@@ -80,8 +80,6 @@ public class CreateNewsTest {
         controlPanelNews.searchNewsAndCheckIsDisplayed(randomTitle);
     }
 
-    // тест падает, если последнюю строку расскомментировать
-    // скорее всего, это связано с тем, что элемент находится в невидимом контейнере
     @Description("Создание пустой карточки TC-25")
     @Test
     public void shouldStayOnNewsCreationScreenWhenCreatingNewsWithEmptyFields() {
